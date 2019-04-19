@@ -1,0 +1,16 @@
+header {
+  background-image: url($bg-image-url);
+  @include cover-background();
+}
+
+header>nav ul li a {
+  color: $text-color;
+}
+
+header>nav ul li a, header>nav ul li a:visited {
+  color: $text-color;
+}
+
+header>nav ul li a:hover {
+  color: $text-color-negative;
+}
