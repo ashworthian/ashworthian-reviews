@@ -11,6 +11,10 @@ header>nav ul li a, header>nav ul li a:visited {
   color: $text-color;
 }
 
-header>nav ul li a:hover {
-  color: $text-color-negative;
+// header>nav ul li a:hover {
+//   color: $text-color-negative;
+// }
+
+header>h1 a, header>h1 a:visited {
+  color: $text-color;
 }
